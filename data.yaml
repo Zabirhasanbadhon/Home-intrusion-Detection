@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['intrusiondetected']
+
+roboflow:
+  workspace: zabir-hasan-sgvrw
+  project: home-intrusion-detection-9xyge
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zabir-hasan-sgvrw/home-intrusion-detection-9xyge/dataset/1
